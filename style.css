@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background-color: rgb(135, 247, 247);
+    border-bottom: 3px solid pink;
+    flex-wrap: wrap;
+}
+.Logo img{
+    height: 60px;
+    border-radius: 70px;
+    border: 5px solid  pink;
+    cursor: pointer;
+    
+}
+.nav a {
+    text-decoration: none;
+   color: darkcyan;
+}
+.nav {
+    display : flex;
+    gap : 20px;
+    flex-wrap: wrap;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 230, 0);
+    flex-direction: column;
+}
+
+.main1 {
+    background-image: url("images/toy banner.jpg");
+    background-size: cover;      
+    background-position: center;  
+    width: 80%;
+    min-height: 300px;      
+    flex-direction:column ;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.main2{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 20px;
+    margin-top:50px;
+    padding: 10px;
+}
+.main2 img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+
+    
+    
+}
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .main1 {
+        width: 95%;         
+        min-height: 200px;   
+        font-size: 1.2rem;   
+        padding: 10px;
+    }
+    .main1 h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
