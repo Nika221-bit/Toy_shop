@@ -18,7 +18,7 @@ header {
     border-radius: 70px;
     border: 5px solid  pink;
     cursor: pointer;
-    
+
 }
 .nav a {
     text-decoration: none;
@@ -38,7 +38,7 @@ main {
 }
 
 .main1 {
-    background-image: url("images/toy banner.jpg");
+    background-image: url("images/toy\ banner.jpg");
     background-size: cover;      
     background-position: center;  
     width: 80%;
@@ -77,9 +77,126 @@ main {
 
 
 
+footer {
+    background-color: rgb(135, 247, 247);
+    border-top: 3px solid pink;
+    padding: 30px 20px;
+    color: darkcyan;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: left;
+}
+
+.footer-container h3, 
+.footer-container h4 {
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links a, 
+.footer-social a {
+    text-decoration: none;
+    color: darkcyan;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, 
+.footer-social a:hover {
+    color: pink;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.line{display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+      }
+.product img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid aqua;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn1{
+    color: rgb(145, 145, 145);
+    background-color: pink;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: hotpink;
+    color: white;
+}
+.btn1 a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.btn2 a {
+    text-decoration: none;
+}
+
+.btn2 {
+    color: white;
+    background-color: darkcyan;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: cyan;
+    color: black;
+}
 
 
 
+.main3{display: flex;
+   flex-direction: column;
+  justify-content: center;
+align-items: center;}
 
 /* responsive */
 
