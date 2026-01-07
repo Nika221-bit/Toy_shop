@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background-color: rgb(135, 247, 247);
+    border-bottom: 3px solid pink;
+    flex-wrap: wrap;
+}
+.Logo img{
+    height: 60px;
+    border-radius: 70px;
+    border: 5px solid  pink;
+    cursor: pointer;
+
+}
+.nav a {
+    text-decoration: none;
+   color: darkcyan;
+}
+.nav {
+    display : flex;
+    gap : 20px;
+    flex-wrap: wrap;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 230, 0);
+    flex-direction: column;
+    
+    
+}
+
+.main_toy1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: rgb(4, 247, 255);
+    justify-content: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border: 3px solid pink;
+    
+}
+
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left img{
+    width: 50%;
+    background-color: white;
+    border-radius: 25px;
+    width: 100%; 
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.right_text{
+   display: flex;
+   flex-direction: column;
+    gap: 20px;
+}
+
+
+.btn1{
+    color: rgb(145, 145, 145);
+    background-color: pink;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+
+footer {
+    background-color: rgb(135, 247, 247);
+    border-top: 3px solid pink;
+    padding: 30px 20px;
+    color: darkcyan;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: left;
+}
+
+.footer-container h3, 
+.footer-container h4 {
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links a, 
+.footer-social a {
+    text-decoration: none;
+    color: darkcyan;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, 
+.footer-social a:hover {
+    color: pink;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+   .main_toy1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+   }
+   
+}
