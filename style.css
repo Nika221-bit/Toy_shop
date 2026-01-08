@@ -82,6 +82,7 @@ footer {
     border-top: 3px solid pink;
     padding: 30px 20px;
     color: darkcyan;
+    
 }
 
 .footer-container {
@@ -218,6 +219,7 @@ align-items: center;}
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
+    height: 500px;
 }
 
 .contact-info {
@@ -323,5 +325,6 @@ align-items: center;}
     
     .map-container {
         height: 300px;
+        height: 100%;
     }
 }
