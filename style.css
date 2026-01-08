@@ -214,7 +214,17 @@ align-items: center;}
     }
     
 }
-
+.about_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.about_img{
+    width: 40%;
+}
 @media (max-width: 625px) {
     .main3 {
         flex-direction: column;
@@ -222,4 +232,7 @@ align-items: center;}
     .line {
         flex-direction: column;
     }
+    .about_img{
+    width: 100%;
+}
 }
